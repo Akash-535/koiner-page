@@ -1,12 +1,11 @@
 .bg-img {
-    background-image: url(../images/png/bg-img.png);
+
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
     background-color: #0BA9D3;
 }
 
-.navIcons {
+/* .nav-icons {
     font-family: 'Blockers Edge', sans-serif;
     font-size: 16px;
     font-weight: 250 !important;
@@ -30,62 +29,87 @@
     border-top-left-radius: 10px;
 
 }
+
 .box1 {
-    background-color:#0BA9D3;
+    background-color: #0BA9D3;
     box-shadow: 4px -4px 5.6px 0px #00000033;
     max-width: 157px !important;
     height: 47px !important;
-    padding-left: 48px;
+    padding-left: 55px;
     padding-right: 57px;
     padding-top: 12px;
     padding-bottom: 12px;
     border-top-right-radius: 60px;
     border-top-left-radius: 10px;
-    left: 16%;
+    left: 22%;
+}
 
-}.box2 {
-    background-color:#1AD80B;
+.z-index-1 {
+    z-index: 1;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
+.z-index-3 {
+    z-index: 3;
+}
+
+.z-index-4 {
+    z-index: 4;
+}
+
+.z-index-5 {
+    z-index: 5;
+}
+
+.box2 {
+    background-color: #1AD80B;
     box-shadow: 4px -4px 5.6px 0px #00000033;
-    max-width: 157px !important;
+    max-width: 182px !important;
     height: 47px !important;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-right: 55px;
     padding-top: 12px;
     padding-bottom: 12px;
     border-top-right-radius: 60px;
     border-top-left-radius: 10px;
-    left: 25%;
+    left: 33%;
+}
 
-}.box3 {
+.box3 {
     background-color: #E0ADF7;
     box-shadow: 4px -4px 5.6px 0px #00000033;
-    max-width: 157px !important;
+    max-width: 162px !important;
     height: 47px !important;
-padding-left: 46px;
+    padding-left: 36px;
     padding-right: 49px;
     padding-top: 12px;
     padding-bottom: 12px;
     border-top-right-radius: 60px;
     border-top-left-radius: 10px;
-    left: 34%;
+    left: 46.50%;
+}
 
-}.box4 {
+.box4 {
     background-color: #FF7BAC;
     box-shadow: 4px -4px 5.6px 0px #00000033;
-    max-width: 157px !important;
+    max-width: 162px !important;
     height: 47px !important;
-    padding-left: 41px;
+    padding-left: 26px;
     padding-right: 41px;
     padding-top: 12px;
     padding-bottom: 12px;
     border-top-right-radius: 60px;
     border-top-left-radius: 10px;
-    left: 43%;
+    left: 58.50%;
+}
 
-}.box5 {
+.box5 {
     background-color: #ED1C24;
     box-shadow: 4px -4px 5.6px 0px #00000033;
-    max-width: 157px !important;
+    max-width: 162px !important;
     height: 47px !important;
     padding-left: 63px;
     padding-right: 63px;
@@ -93,6 +117,140 @@ padding-left: 46px;
     padding-bottom: 12px;
     border-top-right-radius: 60px;
     border-top-left-radius: 10px;
-    left: -8%;
+    left: 69.90%;
+} */
+
+.logo-name {
+    font-family: Blockers Edge;
+    font-size: 35.04px;
+    font-weight: 250;
+    line-height: 100%;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.bear-img {
+    margin-top: 49px;
+}
+
+.ml-65 {
+    margin-left: 65px;
+}
+
+.vote-image {
+    width: 51px;
+    height: 55px;
+    margin-top: 37px;
+    margin-right: 26px;
+
+}
+
+.logo-finance {
+    font-family: Blockers Edge;
+    font-size: 12.73px;
+    font-weight: 250;
+    line-height: 100%;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.main-heading {
+    font-family: Blockers Edge;
+    font-size: 40px;
+    font-weight: 250;
+    line-height: 100%;
+    text-align: center;
+    padding-top: 47px;
+}
+
+.card-heading {
+    font-family: Blockers Edge;
+    font-size: 20px;
+    font-weight: 250;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+    margin: 0;
+}
+
+.card-para {
+    font-family: PT Sans Narrow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    max-width: 561px !important;
+}
+
+.font-w {
+    font-weight: 700;
+}
+
+.card-box {
+    max-width: 597px !important;
+    min-height: 155.54px;
+    margin: auto;
+    background: linear-gradient(180deg, #FAFAFA -1.72%, #D9D9D9 99.33%);
+    padding: 17px;
+    border-radius: 15px;
+    margin-bottom: 35px;
+}
+
+.footer-text {
+    font-family: Blockers Edge;
+    font-size: 20px;
+    font-weight: 250;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 124px;
+    padding-bottom: 20px;
+}
+
+#mylayer {
+    background-image: url(../images/png/bg-img.png);
+    background-position: top left;
+    animation: mymove 15s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        background-position: center;
+    }
+}
+
+@media(max-width:576px) {
+    .flex-direction {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .main-heading {
+        font-size: 28px;
+        padding-top: 25px;
+    }
+
+    .vote-image {
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+.bear-img{
+    margin-top: 30px;
+}
+    .bear {
+        margin: auto;
+    }
+
+    .footer-text {
+            padding-top: 24px;
+            text-align: center;
+    }
+        .card-box{
+                margin-bottom: 25px;
+        }
 
 }

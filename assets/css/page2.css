@@ -1,9 +1,98 @@
-.bg-img{
+.bg-img {
     background-image: url(../images/png/bg-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-}
-.bg-color{
     background-color: #0BA9D3;
+}
+
+.navIcons {
+    font-family: 'Blockers Edge', sans-serif;
+    font-size: 16px;
+    font-weight: 250 !important;
+    line-height: 100%;
+    text-align: left;
+    text-decoration: none !important;
+    color: #000000 !important;
+    list-style-type: none;
+}
+
+.box {
+    background-color: #F78B0B;
+    box-shadow: 4px -4px 5.6px 0px #00000033;
+    max-width: 157px !important;
+    height: 47px !important;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 10px;
+
+}
+.box1 {
+    background-color:#0BA9D3;
+    box-shadow: 4px -4px 5.6px 0px #00000033;
+    max-width: 157px !important;
+    height: 47px !important;
+    padding-left: 48px;
+    padding-right: 57px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 10px;
+    left: 16%;
+
+}.box2 {
+    background-color:#1AD80B;
+    box-shadow: 4px -4px 5.6px 0px #00000033;
+    max-width: 157px !important;
+    height: 47px !important;
+    padding-left: 50px;
+    padding-right: 55px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 10px;
+    left: 25%;
+
+}.box3 {
+    background-color: #E0ADF7;
+    box-shadow: 4px -4px 5.6px 0px #00000033;
+    max-width: 157px !important;
+    height: 47px !important;
+padding-left: 46px;
+    padding-right: 49px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 10px;
+    left: 34%;
+
+}.box4 {
+    background-color: #FF7BAC;
+    box-shadow: 4px -4px 5.6px 0px #00000033;
+    max-width: 157px !important;
+    height: 47px !important;
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 10px;
+    left: 43%;
+
+}.box5 {
+    background-color: #ED1C24;
+    box-shadow: 4px -4px 5.6px 0px #00000033;
+    max-width: 157px !important;
+    height: 47px !important;
+    padding-left: 63px;
+    padding-right: 63px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 10px;
+    left: -8%;
+
 }

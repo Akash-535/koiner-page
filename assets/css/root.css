@@ -12,6 +12,7 @@
   --purple: #b40edd;
   --green: #119c17;
   --grey: #b3b3b3;
+  --light-yellow: #caf3a2;
 
   /* --------------------------font-size-root---------------------------- */
   --fs-xxs: 12px;
@@ -150,6 +151,9 @@
 }
 .text_grey {
   color: var(--grey);
+}
+.bg-light-yellow {
+  background-color: var(--light-yellow);
 }
 /*===root responsive=====*/
 @media (max-width: 768px) {

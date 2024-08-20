@@ -1,4 +1,7 @@
 @import url(/assets/css/root.css);
+.container{
+    max-width: 1140px !important;
+}
 .faq-section{
 background-image: url(/assets/images/png/bg-red.png);
 background-repeat: no-repeat;
@@ -31,7 +34,7 @@ border-radius: 6px !important;
 
 }
 .user{
-    width: 174px !important;
+    max-width: 174px !important;
     margin-left: auto !important;
     margin-right: auto !important;
     display: flex;
@@ -81,6 +84,9 @@ margin-right: 29px;
 }
 .mt-100{
     margin-top: 100px !important;
+}
+.mt-19{
+    margin-top: 29px;
 }
 @media (max-width:992px) {
     .faq-section{

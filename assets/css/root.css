@@ -114,7 +114,43 @@
   font-weight: 300;
   line-height: 100%;
 }
-
+/*=======color======*/
+.text_white {
+  color: var(--white);
+}
+.text_orange {
+  color: var(--orange);
+}
+.text_violet {
+  color: var(--violet);
+}
+.text_black {
+  color: var(--black);
+}
+.text_blue {
+  color: var(--blue);
+}
+.text_red {
+  color: var(--red);
+}
+.text_pink {
+  color: var(--pink);
+}
+.text_light_green {
+  color: var(--light-green);
+}
+.text_light_blue {
+  color: var(--light-blue);
+}
+.text_purple {
+  color: var(--purple);
+}
+.text_green {
+  color: var(--green);
+}
+.text_grey {
+  color: var(--grey);
+}
 /*===root responsive=====*/
 @media (max-width: 768px) {
   :root {

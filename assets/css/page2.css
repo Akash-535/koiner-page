@@ -1,0 +1,9 @@
+.bg-img{
+    background-image: url(../images/png/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.bg-color{
+    background-color: #0BA9D3;
+}

@@ -1,0 +1,44 @@
+<<<<<<< HEAD
+=======
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,700);
+@font-face {
+  font-family: "blockers-edge";
+  src: url(../font/blocker-edge.zip);
+}
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.blockers_edge {
+  font-family: "blockers-edge", sans-serif;
+}
+/*=======page_1========*/
+.page_1_bg_img {
+  background-image: url(../images/png/page-1-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.max_width_554 {
+  max-width: 554px;
+}
+
+.line {
+  max-width: 471px;
+  height: 34px;
+  background: #29abe2;
+  border-radius: 10px;
+}
+
+.line_1 {
+  max-width: 229px;
+  height: 34px;
+  background: #0071bc;
+  border-radius: 10px;
+}
+.max_w_166 {
+  max-width: 166px;
+}
+.min_w_166 {
+  min-width: 166px;
+}
+>>>>>>> 2640e1ca27640d69eb85cce6d5f2fb4c5a3eef9a

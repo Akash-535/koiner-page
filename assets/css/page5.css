@@ -1,14 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 
+@font-face {
+    font-family: "Blockers Edge";
+    src: url("../fonts/Blockers\ Edge.4b1e4bc53da3e3d72d0d.ttf");
+}
+
 .bg-pink {
     background-color: rgba(255, 123, 172, 1);
-    background-image: url(../images/png/layer.png);
     min-height: 100vh;
 }
 
+#mylayer {
+    background-image: url(../images/png/layer.png);
+    background-position: top left;
+    animation: mymove 20s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        background-position: center;
+    }
+}
+
 .logo-name {
-    font-family: "Blockers Edge" sans-serif;
-    font-size: 35.04px;
+    font-family: "Blockers Edge";
+    font-size: var(--fs-5xl);
     font-weight: 250;
     line-height: 100%;
     text-align: left;
@@ -16,8 +32,8 @@
 }
 
 .logo-finance {
-    font-family: "Blockers Edge" sans-serif;
-    font-size: 12.73px;
+    font-family: "Blockers Edge";
+    font-size: var(--fs-xxs);
     font-weight: 250;
     line-height: 100%;
     text-align: left;
@@ -25,11 +41,11 @@
 }
 
 .main-heading {
-    font-family: "Blockers Edge" sans-serif;
-    font-size: 40px;
+    font-family: "Blockers Edge";
+    font-size: var(--fs-6xl);
     font-weight: 250;
     line-height: 100%;
-    text-align: left;
+    text-align: center;
     color: var(--black);
 }
 
@@ -44,7 +60,7 @@
 
 .sub-heading {
     font-family: "PT Sans Narrow", sans-serif;
-    font-size: 32px;
+    font-size: var(--fs-3xl);
     font-weight: 400;
     line-height: 41.41px;
     text-align: left;
@@ -52,20 +68,28 @@
 }
 
 .box {
-    border: 8px solid rgba(27, 20, 100, 1);
-    width: 567px;
-    
+    border: 8px solid var(--dark-blue);
+    max-width: 567px;
+    background-color: rgba(233, 215, 249, 1);
     border-radius: 14px;
     margin: auto;
+    margin-top: 214px;
+    margin-bottom: 317px;
+
 }
+
 .toggle {
     position: relative;
     display: inline-block;
     width: 60px;
     height: 28px;
-background: rgba(102, 45, 145, 1);
+    background: rgba(102, 45, 145, 1);
     border-radius: 30px;
-    border: 2px solid gray;
+    border: 2px solid var(--dark-purple);
+    background-image: url(../images/png/moon-image.png) !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+   
 }
 
 /* After slide changes */
@@ -76,6 +100,9 @@ background: rgba(102, 45, 145, 1);
     height: 23px;
     border-radius: 50%;
     background-color: var(--white);
+    background-image: url(../images/svg/night.svg);
+    background-position: center;
+    background-repeat: no-repeat;
     top: 1px;
     left: 1px;
     transition: all 0.5s;
@@ -90,38 +117,155 @@ background: rgba(102, 45, 145, 1);
 
 /* Checkbox checked toggle label bg color */
 .checkbox:checked + .toggle {
-background: rgba(102, 45, 145, 1);
+    background: var(--dark-purple);
+    background-image: url(../images/svg/moon.svg);
+        background-position: start;
+        background-repeat: no-repeat;
 }
 
 /* Checkbox vanished */
 .checkbox {
     display: none;
 }
-.card-logo-name{
+
+.card-logo-name {
     font-family: Blockers Edge;
-        font-size: 28px;
-        font-weight: 250;
-        line-height: 28px;
-        text-align: center;
-color: rgba(102, 45, 145, 1);
+    font-size: var(--fs-2xl);
+    font-weight: 250;
+    line-height: 28px;
+    text-align: center;
+    color: var(--dark-purple);
 }
-.card-logo-swap{
+
+.card-logo-swap {
     font-family: Blockers Edge;
-        font-size: 12px;
-        font-weight: 250;
-        line-height: 12px;
-        text-align: center;
-        color: rgba(102, 45, 145, 1);
+    font-size: var(--fs-xxs);
+    font-weight: 250;
+    line-height: 12px;
+    text-align: center;
+    color: var(--dark-purple);
 }
-.settings{
+
+.settings {
     width: 32px;
     height: 32px;
 }
-.bnb-name{
-font-family: "PT Sans Narrow", sans-serif;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 31.06px;
-        text-align: left;
-        color: rgba(102, 45, 145, 1);
+
+.bnb-name {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: var(--fs-xl);
+    font-weight: 400;
+    line-height: 31.06px;
+    text-align: center;
+    color: var(--dark-purple);
+    margin-bottom: 0 !important;
+}
+
+.balance {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: var(--fs-xl);
+    font-weight: 400;
+    line-height: 31.06px;
+    text-align: left;
+    color: var(--dark-purple);
+}
+
+.down-arrow {
+    width: 20px;
+    height: 21px;
+    padding-top: 6px;
+}
+
+.bnb-image {
+    width: 36px;
+    height: 36px;
+
+}
+
+.input-text {
+    outline: none !important;
+    border: 0 !important;
+    border-radius: 12px;
+    max-width: 496px;
+    margin: auto;
+    height: 78px;
+    width: 100%;
+}
+
+.rate {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    line-height: 20.7px;
+    text-align: center;
+    padding-top: 4px;
+    color: var(--dark-purple);
+
+}
+
+.circle {
+    background-color: var(--white);
+    border-radius: 13px;
+    margin-bottom: 10px;
+    width: 64px;
+    height: 29px;
+}
+
+.connect-btn {
+    font-family: Blockers Edge;
+    font-size: var(--fs-7xl);
+    font-weight: 250;
+    line-height: 42px;
+    text-align: left;
+    color: var(--dark-purple);
+    background-color: var(--grey);
+    border-radius: 12px;
+
+}
+
+.mb-28 {
+    margin-bottom: 28px !important;
+}
+
+.footer-text {
+    font-family: Blockers Edge;
+    font-size: var(--fs-2md) !important;
+    font-weight: 250;
+    line-height: 20px;
+    text-align: left;
+    color: var(--white);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:768px) {
+    .md-flex-column {
+        flex-direction: column !important;
+    }
+
+    .md-mx-auto {
+        margin: auto;
+    }
+
+    .box {
+
+        margin-top: 114px !important;
+        margin-bottom: 117px !important;
+
+    }
+
+}
+
+@media (max-width:576px) {
+    .sm-flex-column {
+        flex-direction: column !important;
+    }
+
+    .box {
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+        .input-text {
+            height: 48px;            
+        }
 }

@@ -13,9 +13,9 @@
 
     <body>
         <section class="d-flex align-items-center min-vh-100 ">
-            <div class="container bg-pink ">
-                <div class="d-flex pt-5 justify-content-between">
-                    <div class="flex-column ms-60">
+            <div class="container bg-pink" id="mylayer">
+                <div class="d-flex pt-5 justify-content-between md-flex-column">
+                    <div class="flex-column ms-60 md-mx-auto">
                         <img src="assets/images/svg/logo-bear.svg" alt="logo-bear">
                         <p class="logo-name mb-0">KOINER</p>
                         <p class="logo-finance ">Finance Simplified</p>
@@ -24,25 +24,54 @@
                         <p class="main-heading">koinerswap</p>
                         <p class="sub-heading d-flex justify-content-center">Coming Soon</p>
                     </div>
-                    <img src="assets/images/png/logo-vote.png" alt="vote-image" class="vote-image me-4">
+                    <img src="assets/images/png/logo-vote.png" alt="vote-image" class="vote-image me-md-4 md-mx-auto">
                 </div>
-                <div class="box  ">
-                    <div class="d-flex justify-content-between p-2">
-                        <input type="checkbox" id="switch" class="checkbox" />
+                <div class="box ">
+                    <div class="d-flex justify-content-between p-2 md-mx-auto">
+                        <input type="checkbox" id="switch" class="checkbox  md-flex-column" />
                         <label for="switch" class="toggle"></label>
-                        <div class="flex-column">
-                            <img src="assets/images/png/card-logo.png" alt="card-logo">
+                        <div class="flex-column md-mx-auto  md-flex-column">
+                            <img src="assets/images/png/card-logo.png" alt="card-logo" >
                             <p class="card-logo-name mb-0">KOINER</p>
                             <p class="card-logo-swap">Swap</p>
                         </div>
-                        <img src="assets/images/png/settings.png" alt="settings" class="settings">
+                        <img src="assets/images/png/settings.png" alt="settings" class="settings ">
                     </div>
-                    <div class="d-flex">
-                        <img src="assets/images/svg/bnb.svg" alt="BNB image">
-                        <p class="bnb-name">BNB</p>
-                        <img src="assets/images/svg/down-arrow.svg" alt="down-arrow">
+                    <div class="px-sm-5 px-3 pt-sm-5 pt-3">
+                        <div class="d-flex justify-content-between sm-flex-column ">
+                            <div class="d-flex gap-2">
+                                <img src="assets/images/svg/bnb.svg" alt="BNB image" class="bnb-image">
+                                <p class="bnb-name">BNB</p>
+                                <img src="assets/images/svg/down-arrow.svg" alt="down-arrow" class="down-arrow">
+                            </div>
+                            <p class="balance">Balance: 0 BNB</p>
+                        </div>
+                        <input type="text" name="enter-text" class="input-text">
+                        <div class="d-flex gap-2 justify-content-end">
+                            <div class="circle mt-3 ">
+                                <p class="rate ">50%</p>
+                            </div>
+                            <div class="circle mt-3">
+                                <p class="rate ">Max</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <img src="assets/images/svg/refresh.svg" alt="">
+                        </div>
+                        <div class="d-flex justify-content-between mt-4 sm-flex-column ">
+                            <div class="d-flex gap-2">
+                                <img src="assets/images/svg/eth.svg" alt="BNB image" class="bnb-image">
+                                <p class="bnb-name">ETH</p>
+                                <img src="assets/images/svg/down-arrow.svg" alt="down-arrow" class="down-arrow">
+                            </div>
+                            <p class="balance">Balance: 0 ETH</p>
+                        </div>
+                        <input type="text" name="enter-text" class="input-text">
+                        <a href="" class="connect-btn py-sm-4 mt-3 mb-28 d-flex align-items-center justify-content-center text-decoration-none">Connect Wallet</a>
                     </div>
                 </div>
+                <div class="footer-text d-flex align-items-end">audit whitepaper</div>
+                
 
             </div>
         </section>

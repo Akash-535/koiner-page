@@ -1,11 +1,10 @@
 .bg-img {
-
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #0BA9D3;
 }
 
-/* .nav-icons {
+.nav-icons {
     font-family: 'Blockers Edge', sans-serif;
     font-size: 16px;
     font-weight: 250 !important;
@@ -27,7 +26,7 @@
     padding-bottom: 12px;
     border-top-right-radius: 60px;
     border-top-left-radius: 10px;
-
+    left: 6%;
 }
 
 .box1 {
@@ -41,7 +40,7 @@
     padding-bottom: 12px;
     border-top-right-radius: 60px;
     border-top-left-radius: 10px;
-    left: 22%;
+    left: 19%;
 }
 
 .z-index-1 {
@@ -75,7 +74,7 @@
     padding-bottom: 12px;
     border-top-right-radius: 60px;
     border-top-left-radius: 10px;
-    left: 33%;
+    left: 32%;
 }
 
 .box3 {
@@ -89,9 +88,12 @@
     padding-bottom: 12px;
     border-top-right-radius: 60px;
     border-top-left-radius: 10px;
-    left: 46.50%;
+    left: 47%;
 }
-
+@font-face {
+    font-family: "Blockers Edge";
+    src: url(../Fonts/Blockers\ Edge.4b1e4bc53da3e3d72d0d\ copy.ttf);
+}
 .box4 {
     background-color: #FF7BAC;
     box-shadow: 4px -4px 5.6px 0px #00000033;
@@ -103,7 +105,7 @@
     padding-bottom: 12px;
     border-top-right-radius: 60px;
     border-top-left-radius: 10px;
-    left: 58.50%;
+    left: 60%;
 }
 
 .box5 {
@@ -117,8 +119,8 @@
     padding-bottom: 12px;
     border-top-right-radius: 60px;
     border-top-left-radius: 10px;
-    left: 69.90%;
-} */
+    left: 72.90%;
+}
 
 .logo-name {
     font-family: Blockers Edge;
@@ -238,19 +240,22 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
-.bear-img{
-    margin-top: 30px;
-}
+
+    .bear-img {
+        margin-top: 30px;
+    }
+
     .bear {
         margin: auto;
     }
 
     .footer-text {
-            padding-top: 24px;
-            text-align: center;
+        padding-top: 24px;
+        text-align: center;
     }
-        .card-box{
-                margin-bottom: 25px;
-        }
 
+    .card-box {
+        margin-bottom: 25px;
+    }
+.box{}
 }

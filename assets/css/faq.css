@@ -9,18 +9,21 @@
   background-size: cover;
 }
 
-
+.px-25{
+  padding-left: 25px;
+  padding-right: 25px;
+}
 .button-one {
   background: linear-gradient(180deg, #fafafa 0%, #d9d9d9 100%);
-  min-height: 102px;
+  min-height: 75px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 24px;
-  padding-left: 21px;
-  padding-bottom: 24px;
-  padding-right: 21px;
-  width: 220px;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+
   margin-left: auto;
   margin-right: auto;
   border-radius: 6px;
@@ -41,7 +44,7 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 6px;
-  width: 220px;
+
   margin-top: 9px;
   min-height: 131px;
 }
@@ -56,7 +59,7 @@
   padding-left: 15px;
   padding-bottom: 10px;
   padding-right: 15px;
-  max-width: 220px;
+
   margin-left: auto;
   margin-right: auto;
   border-radius: 6px;
@@ -76,13 +79,15 @@
   padding-left: 8px;
   padding-right: 8px;
    background: linear-gradient(180deg, #fafafa 0%, #d9d9d9 100%);
-   width: 220px;
+ 
    border-radius: 6px;
    margin-left: auto;
    margin-right: auto;
    
 }
-
+.w-274{
+  width: 274px;
+}
 
 .home-link {
   width: 158.74px;

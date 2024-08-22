@@ -15,111 +15,9 @@
     list-style-type: none;
 }
 
-.box {
-    background-color: #F78B0B;
-    box-shadow: 4px -4px 5.6px 0px #00000033;
-    max-width: 157px !important;
-    height: 47px !important;
-    padding-left: 55px;
-    padding-right: 55px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-top-right-radius: 60px;
-    border-top-left-radius: 10px;
-    left: 6%;
-}
-
-.box1 {
-    background-color: #0BA9D3;
-    box-shadow: 4px -4px 5.6px 0px #00000033;
-    max-width: 157px !important;
-    height: 47px !important;
-    padding-left: 55px;
-    padding-right: 57px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-top-right-radius: 60px;
-    border-top-left-radius: 10px;
-    left: 19%;
-}
-
-.z-index-1 {
-    z-index: 1;
-}
-
-.z-index-2 {
-    z-index: 2;
-}
-
-.z-index-3 {
-    z-index: 3;
-}
-
-.z-index-4 {
-    z-index: 4;
-}
-
-.z-index-5 {
-    z-index: 5;
-}
-
-.box2 {
-    background-color: #1AD80B;
-    box-shadow: 4px -4px 5.6px 0px #00000033;
-    max-width: 182px !important;
-    height: 47px !important;
-    padding-left: 30px;
-    padding-right: 55px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-top-right-radius: 60px;
-    border-top-left-radius: 10px;
-    left: 32%;
-}
-
-.box3 {
-    background-color: #E0ADF7;
-    box-shadow: 4px -4px 5.6px 0px #00000033;
-    max-width: 162px !important;
-    height: 47px !important;
-    padding-left: 36px;
-    padding-right: 49px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-top-right-radius: 60px;
-    border-top-left-radius: 10px;
-    left: 47%;
-}
 @font-face {
     font-family: "Blockers Edge";
     src: url(../Fonts/Blockers\ Edge.4b1e4bc53da3e3d72d0d\ copy.ttf);
-}
-.box4 {
-    background-color: #FF7BAC;
-    box-shadow: 4px -4px 5.6px 0px #00000033;
-    max-width: 162px !important;
-    height: 47px !important;
-    padding-left: 26px;
-    padding-right: 41px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-top-right-radius: 60px;
-    border-top-left-radius: 10px;
-    left: 60%;
-}
-
-.box5 {
-    background-color: #ED1C24;
-    box-shadow: 4px -4px 5.6px 0px #00000033;
-    max-width: 162px !important;
-    height: 47px !important;
-    padding-left: 63px;
-    padding-right: 63px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-top-right-radius: 60px;
-    border-top-left-radius: 10px;
-    left: 72.90%;
 }
 
 .logo-name {
@@ -145,7 +43,6 @@
     height: 55px;
     margin-top: 37px;
     margin-right: 26px;
-
 }
 
 .logo-finance {

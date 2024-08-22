@@ -201,6 +201,12 @@
 .bg_light_blue {
   background: var(--light-blue);
 }
+.bg_purple {
+  background: var(--purple);
+}
+.bg_green {
+  background: var(--green);
+}
 /*===root responsive=====*/
 @media (max-width: 768px) {
   :root {

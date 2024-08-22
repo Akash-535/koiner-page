@@ -456,7 +456,41 @@ body {
     background-position: center;
   }
 }
-
+/* =============page 4=================== */
+.page_4_bg {
+  background-image: url(../images/png/bg-img-sec-4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.in_bx {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.input_box_2 {
+  padding-left: 90px;
+  padding-right: 98px;
+}
+.input_box_3 {
+  padding-left: 90px;
+  padding-right: 178px;
+}
+.input_box_4 {
+  padding-left: 90px;
+  padding-right: 217px;
+}
+.input_box_5 {
+  padding-left: 90px;
+  padding-right: 80px;
+}
+.box_one {
+  max-width: 864.56px;
+}
+.box_buttons:hover {
+  box-shadow: 3px 2px 10.2px 0px rgba(255, 255, 255, 0.8) !important;
+}
+.create-btn:hover {
+  box-shadow: 3px 2px 10.2px 0px rgba(255, 255, 255, 0.8) !important;
+}
 /* ================page 5 ================= */
 .bg-pink {
   background-color: rgba(255, 123, 172, 1);
@@ -850,6 +884,16 @@ body {
 
   .md-mt-20 {
     margin-top: 20px;
+  }
+  /* page4 */
+  .in_bx,
+  .input_box_2,
+  .input_box_3,
+  .input_box_4,
+  .input_box_5 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
   }
   /* page 5 */
   .md-flex-column {

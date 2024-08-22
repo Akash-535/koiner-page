@@ -354,7 +354,7 @@ body {
 }
 
 .bg-4 {
-  background: var(--light-green);
+  background: var(--green);
 }
 
 .bg-5 {
@@ -362,7 +362,7 @@ body {
 }
 
 .bg-6 {
-  background: var(--light-green);
+  background: var(--olive-green);
 }
 
 .bg-7 {
@@ -437,7 +437,7 @@ body {
   text-align: left;
   color: var(--white);
   margin-left: 20px;
-  margin-top: 70px;
+  margin-top: 131px;
 }
 
 .color-graph {
@@ -529,7 +529,19 @@ body {
   margin-top: 214px;
   margin-bottom: 317px;
 }
-
+.box:hover{
+  background-color: var(--dark-purple);
+  
+}
+.box:hover .balance{
+  color: var(--white);
+}
+.box:hover .logo-name {
+  color: var(--white);
+}
+.box:hover .logo-finance {
+  color: var(--white);
+}
 .toggle {
   position: relative;
   display: inline-block;
@@ -650,7 +662,7 @@ body {
   color: var(--dark-purple);
 }
 
-.circle {
+.Circle {
   background-color: var(--white);
   border-radius: 13px;
   margin-bottom: 10px;
@@ -864,6 +876,12 @@ body {
     margin-top: 114px !important;
     margin-bottom: 117px !important;
   }
+  .mt-sm-40{
+    margin-top: 40px;
+  }
+  .main-heading{
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 576px) {
@@ -910,6 +928,7 @@ body {
     margin-top: 50px !important;
     margin-bottom: 50px !important;
   }
+  
   .input-text {
     height: 48px;
   }

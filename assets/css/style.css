@@ -9,6 +9,54 @@ body {
 .blockers_edge {
   font-family: "Blockers Edge", sans-serif;
 }
+/*============header========= */
+
+.nav-bar-box {
+  padding: 11px 61px;
+  background-color: #f78b0b;
+  border-top-right-radius: 28px;
+  box-shadow: 4px -4px 5.6px 0px #00000033;
+}
+
+.box-2 {
+  background-color: #0ba9d3;
+}
+
+.box-3 {
+  background-color: #1ad80b;
+}
+
+.box-4 {
+  background-color: #e0adf7;
+}
+
+.box-5 {
+  background-color: #ff7bac;
+}
+
+.box-6 {
+  background-color: #ed1c24;
+}
+
+.translateX-15 {
+  transform: translate(-15px);
+}
+
+.translateX-30 {
+  transform: translateX(-30px);
+}
+
+.translateX-45 {
+  transform: translateX(-45px);
+}
+
+.translateX-60 {
+  transform: translateX(-60px);
+}
+
+.translateX-75 {
+  transform: translateX(-75px);
+}
 /*=======page_1========*/
 .page_1_bg_img {
   background-image: url(../images/png/page-1-bg.png);
@@ -89,4 +137,9 @@ body {
   width: 220px;
   margin-top: 9px;
   min-height: 131px !important;
+}
+@media (max-width: 992px) {
+  .bear {
+    max-width: 50px;
+  }
 }

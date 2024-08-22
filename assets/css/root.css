@@ -15,6 +15,7 @@
   --green: #119c17;
   --grey: #b3b3b3;
   --dark-blue: rgba(27, 20, 100, 1);
+  --olive-green:#b3de69;
 
   /* --------------------------font-size-root---------------------------- */
   --fs-xxs: 12px;
@@ -50,6 +51,8 @@
 
 @media (max-width: 768px) {
   :root {
+    --fs-md: 16px;
+      --fs-2md: 16px;
     --fs-xl: 20px;
     --fs-2xl: 22px;
     --fs-3xl: 24px;

@@ -102,7 +102,7 @@
 .font_20_300 {
   font-size: var(--fs-2md);
   font-weight: 300;
-  line-height: 100%;
+  line-height: 105%;
 }
 .font_20_400 {
   font-size: var(--fs-2md);

@@ -151,7 +151,7 @@ body {
   margin-top: 49px;
 }
 
-.ml-65 {
+.bear-data {
   margin-left: 65px;
 }
 
@@ -164,6 +164,7 @@ body {
 
 .card-para {
   max-width: 561px !important;
+  margin-bottom: 0;
 }
 
 .card-box {
@@ -227,6 +228,7 @@ body {
   text-align: center;
   color: var(--black);
   margin-top: 45px;
+  padding-top: 47px;
 }
 
 .vote-image {
@@ -437,7 +439,8 @@ body {
   text-align: left;
   color: var(--white);
   margin-left: 20px;
-  margin-top: 131px;
+  margin-top: 70px;
+  padding-bottom: 20px;
 }
 
 .color-graph {
@@ -564,9 +567,6 @@ body {
   margin-bottom: 317px;
 }
 
-.box:hover .balance {
-  color: var(--white);
-}
 .box:hover .logo-name {
   color: var(--white);
 }
@@ -839,6 +839,7 @@ body {
 @media (max-width: 768px) {
   .logo-name {
     font-size: var(--fs-2md);
+    padding-left: 14px;
   }
 
   .main-heading {
@@ -936,6 +937,7 @@ body {
   .main-heading {
     font-size: 28px;
     padding-top: 25px;
+    margin-top: 20px;
   }
 
   .vote-image {
@@ -948,13 +950,14 @@ body {
     margin-top: 30px;
   }
 
-  .bear {
+  .bear-data {
     margin: auto;
   }
 
   .footer-text {
     padding-top: 24px;
     text-align: center;
+    margin-top: 20px;
   }
 
   .card-box {

@@ -138,8 +138,97 @@ body {
   margin-top: 9px;
   min-height: 131px !important;
 }
+
+/* ======page-2======= */
+.bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0ba9d3;
+}
+
+@font-face {
+  font-family: "Blockers Edge";
+  src: url(../Fonts/Blockers\ Edge.4b1e4bc53da3e3d72d0d\ copy.ttf);
+}
+
+.bear-img {
+  margin-top: 49px;
+}
+
+.ml-65 {
+  margin-left: 65px;
+}
+
+.vote-image {
+  width: 51px;
+  height: 55px;
+  margin-top: 37px;
+  margin-right: 26px;
+}
+
+.card-para {
+  max-width: 561px !important;
+}
+
+.card-box {
+  max-width: 597px !important;
+  min-height: 155.54px;
+  margin: auto;
+  background: linear-gradient(180deg, #fafafa -1.72%, #d9d9d9 99.33%);
+  padding: 17px;
+  border-radius: 15px;
+  margin-bottom: 35px;
+}
+
+#mylayer {
+  background-image: url(../images/png/bg-img.png);
+  background-position: top left;
+  animation: mymove 15s infinite;
+}
+
+@keyframes mymove {
+  50% {
+    background-position: center;
+  }
+}
+/* ===responsive==== */
 @media (max-width: 992px) {
   .bear {
     max-width: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .flex-direction {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .main-heading {
+    font-size: 28px;
+    padding-top: 25px;
+  }
+
+  .vote-image {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .bear-img {
+    margin-top: 30px;
+  }
+
+  .bear {
+    margin: auto;
+  }
+
+  .footer-text {
+    padding-top: 24px;
+    text-align: center;
+  }
+
+  .card-box {
+    margin-bottom: 25px;
   }
 }

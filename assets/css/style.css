@@ -567,6 +567,9 @@ body {
   margin-bottom: 317px;
 }
 
+.box:hover .balance {
+  color: var(--white);
+}
 .box:hover .logo-name {
   color: var(--white);
 }
@@ -693,7 +696,7 @@ body {
   color: var(--dark-purple);
 }
 
-.Circle {
+.circle {
   background-color: var(--white);
   border-radius: 13px;
   margin-bottom: 10px;

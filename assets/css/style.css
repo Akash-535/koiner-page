@@ -563,11 +563,8 @@ body {
   margin-top: 214px;
   margin-bottom: 317px;
 }
-.box:hover{
-  background-color: var(--dark-purple);
-  
-}
-.box:hover .balance{
+
+.box:hover .balance {
   color: var(--white);
 }
 .box:hover .logo-name {
@@ -920,10 +917,10 @@ body {
     margin-top: 114px !important;
     margin-bottom: 117px !important;
   }
-  .mt-sm-40{
+  .mt-sm-40 {
     margin-top: 40px;
   }
-  .main-heading{
+  .main-heading {
     margin-top: 0;
   }
 }
@@ -972,7 +969,7 @@ body {
     margin-top: 50px !important;
     margin-bottom: 50px !important;
   }
-  
+
   .input-text {
     height: 48px;
   }

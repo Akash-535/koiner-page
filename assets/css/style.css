@@ -766,9 +766,16 @@ body {
   margin-right: auto;
 }
 .w-274 {
-  width: 274px;
+  min-width: 274px;
 }
-
+.px-70 {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.px-45 {
+  padding-left: 45px;
+  padding-right: 45px;
+}
 .pt-226 {
   padding-top: 226px;
 }

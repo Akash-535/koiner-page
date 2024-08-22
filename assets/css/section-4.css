@@ -1,0 +1,29 @@
+.bg-img {
+  background-image: url(../images/png/bg-img-sec-4.png);
+}
+
+.pt-76 {
+  padding-top: 76px;
+}
+
+.pt-49 {
+  padding-top: 49px;
+}
+
+.box {
+  max-width: 864.56px;
+  height: 628.76px;
+  gap: 0px;
+  border: 1px;
+  opacity: 0px;
+  border-radius: 12px;
+  background-color: #b40edd;
+}
+
+.in-box {
+  max-width: 788px;
+  height: 39px;
+  top: 31px;
+  gap: 0px;
+  opacity: 0px;
+}

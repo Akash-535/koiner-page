@@ -10,9 +10,12 @@
   --black: rgba(0, 0, 0, 1);
   --blue: rgba(0, 113, 188, 1);
   --purple: #b40edd;
+  --dark-purple: rgba(102, 45, 145, 1);
+  --light-purple: #e9d7f9;
   --green: #119c17;
   --grey: #b3b3b3;
-  --light-yellow: #caf3a2;
+  --dark-blue: rgba(27, 20, 100, 1);
+  --olive-green:#b3de69;
 
   /* --------------------------font-size-root---------------------------- */
   --fs-xxs: 12px;
@@ -30,11 +33,46 @@
   --fs-6xl: 40px;
   --fs-7xl: 42px;
   --fs-8xl: 58px;
+  /* ---------------------------------color-root------------------------------ */
+  --white: #ffffff;
+  --orange: rgba(247, 139, 11, 1);
+  --light-blue: rgba(11, 169, 211, 1);
+  --light-green: rgba(26, 216, 11, 1);
+  --violet: rgba(224, 173, 247, 1);
+  --pink: rgba(255, 123, 172, 1);
+  --red: rgba(237, 28, 36, 1);
+  --black: rgba(0, 0, 0, 1);
+  --blue: rgba(0, 113, 188, 1);
+  --purple: #b40edd;
+  --green: #119c17;
+  --grey: #b3b3b3;
+  --light-yellow: #caf3a2;
 }
+
+@media (max-width: 768px) {
+  :root {
+    --fs-md: 16px;
+      --fs-2md: 16px;
+    --fs-xl: 20px;
+    --fs-2xl: 22px;
+    --fs-3xl: 24px;
+    --fs-4xl: 26px;
+    --fs-5xl: 28px;
+    --fs-6xl: 34px;
+    --fs-7xl: 35px;
+    --fs-8xl: 48px;
+  }
+}
+
 /*========Common class========*/
 .font_12_300 {
   font-size: var(--fs-xxs);
   font-weight: 300;
+}
+.font_14_300 {
+  font-size: var(--fs-xs);
+  font-weight: 300;
+  line-height: 100%;
 }
 .font_16_300 {
   font-size: var(--fs-sm);
@@ -95,6 +133,11 @@
   font-weight: 400;
   line-height: 129%;
 }
+.font_34_300 {
+  font-size: var(--fs-4xl);
+  font-weight: 300;
+  line-height: 100%;
+}
 .font_35_300 {
   font-size: var(--fs-5xl);
   font-weight: 300;
@@ -137,6 +180,9 @@
 .text_pink {
   color: var(--pink);
 }
+.bg_light_green {
+  background: var(--light-green);
+}
 .text_light_green {
   color: var(--light-green);
 }
@@ -155,26 +201,29 @@
 .bg-light-yellow {
   background-color: var(--light-yellow);
 }
+.bg_light_blue {
+  background: var(--light-blue);
+}
 /*===root responsive=====*/
 @media (max-width: 768px) {
   :root {
     --fs-2xl: 22px;
     --fs-3xl: 24px;
     --fs-4xl: 26px;
-    --fs-5xl: 28px;
+    --fs-5xl: 24px;
     --fs-6xl: 34px;
     --fs-7xl: 35px;
     --fs-8xl: 48px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   :root {
     --fs-2xl: 18px;
     --fs-3xl: 22px;
     --fs-4xl: 24px;
-    --fs-5xl: 25px;
+    --fs-5xl: 20px;
     --fs-6xl: 28px;
-    --fs-7xl: 30px;
+    --fs-7xl: 25 px;
     --fs-8xl: 38px;
   }
 }

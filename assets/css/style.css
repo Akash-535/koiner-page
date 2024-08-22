@@ -564,15 +564,7 @@ body {
   margin-bottom: 317px;
 }
 
-.box:hover .balance {
-  color: var(--white);
-}
-.box:hover .logo-name {
-  color: var(--white);
-}
-.box:hover .logo-finance {
-  color: var(--white);
-}
+
 .toggle {
   position: relative;
   display: inline-block;

@@ -191,10 +191,346 @@ body {
     background-position: center;
   }
 }
-/* ===responsive==== */
+
+/* ====page 3=========== */
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans+Narrow:wght@400;700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+@font-face {
+  font-family: "Blockers Edge";
+  src: url(../font/Blockers\ Edge.4b1e4bc53da3e3d72d0d.ttf);
+}
+
+.bg-image {
+  background-color: var(--light-green);
+  min-height: 100vh;
+}
+
+.logo-bear {
+  width: 75.42px;
+  height: 64.87px;
+}
+
+.logo-name {
+  font-family: "Blockers Edge";
+  font-size: var(--fs-5xl) !important;
+  font-weight: 250;
+  line-height: 1;
+  text-align: left;
+  color: var(--white);
+  margin-bottom: 0;
+}
+
+.logo-finance {
+  font-family: "Blockers Edge";
+  font-size: var(--fs-xxs) !important;
+  font-weight: 250;
+  line-height: 1;
+  text-align: left;
+  color: var(--white);
+}
+
+.main-heading {
+  font-family: "Blockers Edge";
+  font-size: var(--fs-6xl) !important;
+  font-weight: 250;
+  line-height: 1;
+  text-align: center;
+  color: var(--black);
+  margin-top: 45px;
+}
+
+.vote-image {
+  max-width: 51px;
+  height: 55px;
+  margin-top: 37px;
+  margin-right: 26px;
+}
+
+.mt-49 {
+  margin-top: 49px;
+}
+
+.ml-61 {
+  margin-left: 61px;
+}
+
+.section-heading {
+  font-family: "Blockers Edge";
+  font-size: var(--fs-xl) !important;
+  font-weight: 250;
+  line-height: 1;
+  text-align: center;
+  color: var(--white);
+}
+
+.section-pera {
+  font-family: "Blockers Edge";
+  font-size: var(--fs-2md) !important;
+  font-weight: 250;
+  line-height: 150%;
+  text-align: center;
+  color: var(--white);
+  max-width: 775.78px;
+  margin: auto;
+  padding-top: 24px;
+}
+
+.Card {
+  max-width: 476.59px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background: linear-gradient(180deg, #fafafa -1.71%, #d9d9d9 99.33%);
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.Card-heading {
+  font-family: "Blockers Edge";
+  font-size: var(--fs-2md) !important;
+  font-weight: 250;
+  line-height: 1;
+  text-align: center;
+  color: var(--white);
+}
+
+.Card-text {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: var(--fs-sm) !important;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+  color: var(--black);
+}
+
+.px-23 {
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.px-32 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.pt-63 {
+  padding-top: 63px;
+}
+
+.mw-969 {
+  max-width: 969px;
+  margin: auto !important;
+}
+
+.mt-80 {
+  margin-top: 80px !important;
+}
+
+.circle {
+  width: 36.95px;
+  height: 36.95px;
+  border-radius: 100px;
+}
+
+.bg-1 {
+  background: var(--pink);
+}
+
+.circle-text {
+  font-family: "Blockers Edge";
+  font-size: var(--fs-md) !important;
+  font-weight: 250;
+  line-height: 18px;
+  text-align: left;
+  color: var(--black);
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.gap-13 {
+  gap: 13px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.bg-2 {
+  background: var(--purple);
+}
+
+.bg-3 {
+  background: var(--light-blue);
+}
+
+.bg-4 {
+  background: var(--light-green);
+}
+
+.bg-5 {
+  background: var(--orange);
+}
+
+.bg-6 {
+  background: var(--light-green);
+}
+
+.bg-7 {
+  background: var(--light-purple);
+}
+
+.bg-8 {
+  background: var(--grey);
+}
+
+.pt-55 {
+  padding-top: 55px;
+}
+
+.right-line-1 {
+  position: absolute;
+  top: 25%;
+  right: 7%;
+  transform: translate(-50%, -50%);
+}
+
+.right-line-2 {
+  position: absolute;
+  top: 65%;
+  right: 7%;
+  transform: translate(-50%, -50%);
+}
+
+.line-text-1 {
+  font-family: "Blockers Edge";
+  font-size: var(--fs-xl) !important;
+  font-weight: 250;
+  line-height: 1;
+  text-align: left;
+  color: var(--white);
+  position: absolute;
+  top: 33%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+  rotate: 90deg;
+}
+
+.line-text-2 {
+  font-family: "Blockers Edge";
+  font-size: var(--fs-xl) !important;
+  font-weight: 250;
+  line-height: 1;
+  text-align: left;
+  color: var(--white);
+  position: absolute;
+  top: 78%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+  rotate: 90deg;
+}
+
+.detail {
+  font-family: "Blockers Edge";
+  font-size: var(--fs-md) !important;
+  font-weight: 250;
+  line-height: 18px;
+  text-align: left;
+  color: var(--white);
+  padding-top: 40px;
+}
+
+.footer-text {
+  font-family: "Blockers Edge";
+  font-size: var(--fs-2md) !important;
+  font-weight: 250;
+  line-height: 1;
+  text-align: left;
+  color: var(--white);
+  margin-left: 20px;
+  margin-top: 70px;
+}
+
+.color-graph {
+  max-width: 470.98px;
+  width: 100%;
+}
+
+#my-layer {
+  background-image: url(../images/png/hero-bg.png);
+  background-position: top left;
+  animation: my-move 12s infinite;
+}
+
+@keyframes my-move {
+  50% {
+    background-position: center;
+  }
+}
+
+/* =========================responsive======================= */
 @media (max-width: 992px) {
   .bear {
     max-width: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-name {
+    font-size: var(--fs-2md);
+  }
+
+  .main-heading {
+    font-size: var(--fs-2xl);
+  }
+
+  .section-heading {
+    font-size: var(--fs-md);
+  }
+
+  .section-pera {
+    font-size: var(--fs-xs);
+  }
+
+  .Card-heading {
+    font-size: var(--fs-sm);
+  }
+
+  .Card-text {
+    font-size: var(--fs-xxs);
+  }
+
+  .circle-text {
+    font-size: var(--fs-xxs);
+  }
+
+  .line-text-1 {
+    font-size: var(--fs-sm);
+  }
+
+  .line-text-2 {
+    font-size: var(--fs-2md);
+  }
+
+  .detail {
+    font-size: var(--fs-xs);
+  }
+
+  .footer-text {
+    font-size: var(--fs-sm);
+  }
+
+  .md-flex-column {
+    flex-direction: column;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .md-mx-auto {
+    margin: auto;
+  }
+
+  .md-mt-20 {
+    margin-top: 20px;
   }
 }
 

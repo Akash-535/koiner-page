@@ -147,8 +147,8 @@
 .text_pink {
   color: var(--pink);
 }
-.text_light_green {
-  color: var(--light-green);
+.bg_light_green {
+  background: var(--light-green);
 }
 .text_light_blue {
   color: var(--light-blue);

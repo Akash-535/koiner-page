@@ -566,6 +566,21 @@ body {
   margin-top: 214px;
   margin-bottom: 317px;
 }
+.box:hover{
+  background-color: var(--dark-purple);
+}
+.box:hover .balance{
+  color: var(--white);
+}
+.box:hover .bnb-name {
+  color: var(--white);
+}
+.box:hover .card-logo-swap {
+  color: var(--white);
+}
+.box:hover .card-logo-name {
+  color: var(--white);
+}
 
 
 

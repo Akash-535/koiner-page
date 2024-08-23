@@ -707,16 +707,19 @@ body {
   padding-left: 25px;
   padding-right: 25px;
 }
+.first-btn-padding{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 21px;
+  padding-right: 21px;
+}
 .button-one {
   background: linear-gradient(180deg, #fafafa 0%, #d9d9d9 100%);
   min-height: 75px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 20px;
-  padding-left: 15px;
-  padding-bottom: 20px;
-  padding-right: 15px;
+
 
   margin-left: auto;
   margin-right: auto;
@@ -784,14 +787,26 @@ body {
   padding-left: 70px;
   padding-right: 70px;
 }
-.px-45 {
-  padding-left: 45px;
-  padding-right: 45px;
+.py24-px42 {
+  padding-top: 24px;
+  padding-bottom: 24px
+  ;
+  padding-left: 41px;
+
+  padding-right: 41px;
 }
 .pt-226 {
   padding-top: 226px;
 }
-
+.container{
+  max-width: 1140px !important;
+}
+.py-24-px-8{
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
 /* =========================responsive======================= */
 @media (max-width: 992px) {
   .bear {

@@ -1,0 +1,129 @@
+@import url(/assets/css/root.css);
+*{
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+.container{
+  max-width: 1140px !important;
+}
+.faq-box-parents {
+  background-image: url(/assets/images/png/bg-red.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.px-25{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.z-1{
+  z-index: 1 !important;
+}
+.z-2{
+  z-index: 2 !important;
+}
+.z-3{
+  z-index: 3 !important;
+}
+.z-4{
+  z-index: 4 !important;
+}
+.z-5{
+  z-index: 5 !important;
+}
+.button-one {
+  background: linear-gradient(180deg, #fafafa 0%, #d9d9d9 100%);
+  min-height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+}
+.user {
+  margin-top: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.card-paraggrah {
+  background: linear-gradient(180deg, #fafafa 0%, #d9d9d9 100%) !important ;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+
+  margin-top: 9px;
+ 
+}
+
+.btn-two {
+  background: linear-gradient(180deg, #fafafa 0%, #d9d9d9 100%) !important;
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+
+}
+
+.mt-61{
+  margin-top: 61px;
+}
+.second-btn-row{
+      min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+   background: linear-gradient(180deg, #fafafa 0%, #d9d9d9 100%);
+ 
+   border-radius: 6px;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+.w-274{
+  width: 274px;
+}
+
+.pt-226{
+  padding-top: 226px;
+}  
+ 
+
+/* ---------responisive------------- */
+@media (max-width: 992px) {
+  .faq-box-one {
+    flex-wrap: wrap;
+  }
+  .pt-md-150 {
+padding-top:  150px;
+}
+}
+@media (max-width:576px) {
+.pt-sm-110{
+padding-top: 110px;
+}
+  
+}

@@ -982,4 +982,10 @@ body {
   .input-text {
     height: 48px;
   }
+  .w-57{
+    width: 57px;
+  }
+  .w-30{
+    width: 30px;
+  }
 }

@@ -17,8 +17,8 @@
     margin-top: 325px;
 }
 
-.pb-46 {
-    padding-bottom: 46px;
+.pb-39 {
+    padding-bottom: 39px;
 }
 
 .container {
@@ -83,7 +83,7 @@
 }
 
 @media (max-width: 375px) {
-    .pb-19 {
+    .pb-180 {
         padding-bottom: 180px;
     }
 }

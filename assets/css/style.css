@@ -689,7 +689,7 @@ body {
   color: var(--dark-purple);
 }
 
-.circle {
+.circle-box {
   background-color: var(--white);
   border-radius: 13px;
   margin-bottom: 10px;

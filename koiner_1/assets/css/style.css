@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,700);
+@font-face {
+  font-family: "Blockers Edge";
+  src: url(../fonts/Blockers\ Edge.4b1e4bc53da3e3d72d0d.ttf);
+}
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.blockers_edge {
+  font-family: "Blockers Edge", sans-serif;
+}
+.page_1_background {
+  background-image: url(../images/png/page_1_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.max_w_554 {
+  max-width: 554px;
+}
+.line {
+  max-width: 471px;
+  height: 34px;
+  background: #29abe2;
+  border-radius: 10px;
+}
+
+.line_1 {
+  max-width: 229px;
+  height: 34px;
+  background: #0071bc;
+  border-radius: 10px;
+}
+.max_w_166 {
+  max-width: 166px;
+}
+.min_w_166 {
+  min-width: 166px;
+}
+.card-custom {
+  border-radius: 10px;
+
+  padding: 20px;
+  text-align: center;
+}
+.pera1_card_pera {
+  max-width: 201px;
+}

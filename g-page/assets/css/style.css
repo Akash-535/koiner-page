@@ -1,0 +1,31 @@
+.page_4_bg {
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.max_w_672 {
+  max-width: 672px;
+}
+.max_w_864 {
+  max-width: 864px;
+}
+.box_one {
+  border: 1px solid red;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.in_bx {
+  background: red;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 10px;
+}
+@media (max-width: 768px) {
+  .in_bx {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+}
